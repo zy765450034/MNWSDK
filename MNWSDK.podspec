@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MNWSDK"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "A short description of MNWSDK."
   spec.homepage     = "https://github.com/zy765450034/MNWSDK"
   spec.author       = { "wuweiwei" => "wuwiewei@mini1.cn" }
@@ -11,7 +11,8 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = 'MNWSDK.framework'
   spec.resources = 'MNWSDK.bundle'
-
+  spec.frameworks = 'Foundation', 'UIKit'
+  
   # spec.subspec 'IAP' do |iap|
   #   iap.vendored_frameworks = 'IAPComm.framework'
   # end
