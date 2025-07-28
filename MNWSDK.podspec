@@ -19,13 +19,11 @@ Pod::Spec.new do |spec|
  
   spec.source       = { :git => "https://github.com/zy765450034/MNWSDK.git", :tag => "#{spec.version}" }
 
-
-
-  spec.source_files  = "Classes", "Classes/**/*.{MNWSDK,bundle}"
-  spec.exclude_files = "Classes/Exclude"
+  s.vendored_frameworks = 'MySDK.framework'
+ 
 
   spec.subspec 'IAP' do |iap|
-    iap.source_files = 'MultiSDK/Classes/IAP/**/*'
+    iap.source_files = 'Classes/IAP/**/*'
   end
 
 end
