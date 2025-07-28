@@ -25,10 +25,10 @@
 }
 - (IBAction)login:(id)sender {
     // 自定义事件上报
-    NSDictionary *eventValues = @{
-        @"af_content_id": @"12345",
-        @"af_content_type": @"shoes"
-    };
+//    NSDictionary *eventValues = @{
+//        @"af_content_id": @"12345",
+//        @"af_content_type": @"shoes"
+//    };
 //    [[AppsFlyerLib shared] logEvent:AFEventAdView
 //           withValues: @{AFEventParamSuccess  : @200,
 //                         AFEventParamDestinationB : @"USD",
