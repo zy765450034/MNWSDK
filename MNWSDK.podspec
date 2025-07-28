@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{MNWSDK,bundle}"
   spec.exclude_files = "Classes/Exclude"
 
-  spec.subspec 'IAP' do |two|
-    two.source_files = 'MultiSDK/Classes/IAP/**/*'
+  spec.subspec 'IAP' do |iap|
+    iap.source_files = 'MultiSDK/Classes/IAP/**/*'
   end
 
 end
