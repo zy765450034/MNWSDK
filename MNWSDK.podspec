@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MNWSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.8"
   spec.summary      = "A short description of MNWSDK."
 
   spec.ios.deployment_target = '12.0'
