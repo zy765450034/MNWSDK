@@ -1,0 +1,1781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE7320CAB1FEB84DAC5DE11C9FCDBE38 /* Build configuration list for PBXAggregateTarget "FBSDKLoginKit" */;
+			buildPhases = (
+				427658F3E294DB5EF79EE37BA04E64E1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				DF932FF06387F84166B631CEA51ED742 /* PBXTargetDependency */,
+			);
+			name = FBSDKLoginKit;
+		};
+		28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C320C79E1F381838923FC2BF4FAB74A1 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit" */;
+			buildPhases = (
+				C05801FB1115AB56CF9E73BB6786A73A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				EC5B801D9085F97173A16E0A9667C2A1 /* PBXTargetDependency */,
+				67A8135D3218D72B68B2E636E9E00640 /* PBXTargetDependency */,
+			);
+			name = FBSDKCoreKit;
+		};
+		479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 442545805DAF10650DBA7C00DEAAD47B /* Build configuration list for PBXAggregateTarget "FBAEMKit" */;
+			buildPhases = (
+				A261CEA870C48433C3575F1CCC2BB166 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				76F7D38F4009C612A1E866317888FBEC /* PBXTargetDependency */,
+			);
+			name = FBAEMKit;
+		};
+		8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3FD3872129327BE5DC3B3C86B3818127 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit_Basics" */;
+			buildPhases = (
+				D9F7274906B405E2CF20BDCEB6F3F2CE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FBSDKCoreKit_Basics;
+		};
+		B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 71B9A5BD1FADAE479D403809E582EC07 /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */;
+			buildPhases = (
+				DB7C100E6D7A5CF954757DB8962D9B72 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				2B439533AB1B4DA5CB7680D481CEDD2B /* PBXTargetDependency */,
+			);
+			name = AppsFlyerFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02072E37C5A9E7B39728BC64A6BF9EB6 /* TokenRequestComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DDBFC2971D9EFD30968A512732C87 /* TokenRequestComponents.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		031213AD195EB852F8F553B4EE962412 /* Pods-YandexTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F68F263F4FB1D4F01684C9F947EA9 /* Pods-YandexTest-dummy.m */; };
+		0624D71770F2A8E63C24C5BF61C55F65 /* SharedStorages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40F057A1F89AE96C7BBCAAC567F25F /* SharedStorages.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		0F1B1A594A7837D19E3EFFDBE6B78E97 /* StorageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F1A4EC076B25EC93301A272163C77 /* StorageUtilities.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		10AA8207D3CA8F86FCCCF5DCBEA52E89 /* YandexLoginSDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F314F4ABA37F2CAE80847124948796 /* YandexLoginSDKError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		16646E9015F5AC62FAFE112CC510AF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E294CC6692C893F84500E35A5B415C /* Foundation.framework */; };
+		2069D0105C6DBB1342048A4DF16A2538 /* URLSessionDataTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9B81AA5629CD863EF80827DB73F31 /* URLSessionDataTaskDelegate.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		244575B91771EC58DE744EE4E7E4A8E8 /* StatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BF09C13D24A302198F40731F6FA1E /* StatesManager.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		29D1191C746C1068D2329F3E4009F32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E294CC6692C893F84500E35A5B415C /* Foundation.framework */; };
+		2F971CB9D067625167B4A77919C233BE /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C129C27335E0E27B45F3839ABCBF8 /* LoginResult.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		345BF4963454E312F210182D6BB529D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C581FC8AC255CD577CE6E5010A864589 /* Security.framework */; };
+		396F7760A4906EA1FE65A8BA51B4C76B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E8C41190845960319CC59331E75EF /* Storage.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		3CFDDF4A04A1AA2373B9322899C688BA /* Pods-YandexTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E65F554EA3C300512487F9EDDCD5D21 /* Pods-YandexTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FFE2BA97A64325B89A20FCFEE737CE3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 396430529CAA1C4AA625ECE1B691F75A /* PrivacyInfo.xcprivacy */; };
+		4748D469DF06C86375D9E53969DDC724 /* AuthorizationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5F375835763B2DC13005D1664F0B2 /* AuthorizationParameters.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		49D653EA413C30F783C022CB1CA1A939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBA63B7C502B991192770841C2ED9C /* UIKit.framework */; };
+		4CB6310EB8C71D897D9323BDCE55D749 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE216B52D71E63A9E59A047423B4E1 /* ResponseParser.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		4E2BEF3707B6F2F3608DE9878459A64B /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CBA1C3B4DF9A17822BB03C17AF3BE /* NetworkingError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		51CD220AC916385143E80E4E05B08C68 /* YandexLoginSDKObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA3FA0D60D3DFB1B610AF01FD7A235 /* YandexLoginSDKObserver.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		5713E20B63AAF7C35AB0232CB290F313 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4497530F760E1CF13366E035DA37232 /* CryptoKit.framework */; };
+		57DEE69C4482747319C40C092518DFB0 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852860BAC0C988691A045443E749D84 /* SessionManager.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		5D368726367F5C9572957ABB6AB0FEA7 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0669C9858DAB1D3D9FBE9CE568ECF4A /* HTTPClient.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		64B154CFCEF8C451C7784C632BE46229 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7880CB52BF729E48CAD8080463B3BC /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E44B5CDAE3E26B139C95F2BB2E9FF1 /* CryptoUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4FC654DBF501271CA285BB64C8756 /* CryptoUtilities.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		6FAF8DAC9ACE4EBF7F35FCDF0B1CBDE8 /* YandexLoginSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC8BD975983F22887850CF294BC9F1 /* YandexLoginSDK.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		7D086D984BC929604FAA098FC2B7F6C6 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 887848B8121A510E6B78E24F3A57C148 /* PrivacyInfo.xcprivacy */; };
+		7D4F983D05113F5973D276ED0AEF2100 /* ObserversController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3074D4682010B440FAA0D843499D9757 /* ObserversController.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		7EF02B981CC32A44BCECE860007D7601 /* ActivationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2E18000CB213F5F788CC350B09989 /* ActivationError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		824F242A208EB20254519E5448551BB5 /* QueryUtilitiesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1350D3742D0296F98295C4B4127AE1 /* QueryUtilitiesError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		83DC45F4DF5059BAEBBFFA471DAD684A /* ApplicationPrimacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F29BAC395C51DF856A41DC054BE4B /* ApplicationPrimacy.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		8428176A948FC697C2B1DC716039D024 /* YandexLoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD852657E26C00BCF09D2EA5793FED /* YandexLoginSDK-dummy.m */; };
+		8577048583033A68A7220881E8FFCCA9 /* PKCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F40E57EC5CB63841585DD41FA8B0B9 /* PKCE.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		8AC8C7DC8B63A52CE6031399B8061290 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539CD042A6A3B61B1E3FA12F357C2553 /* StorageError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		8BB37C3DB4F52D89CE56952506F5E814 /* HostProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8735B65999BDED1FE1B06920CB9923 /* HostProvider.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		8D527E4F85F721345B5E6C9E6A6DC6CE /* QueryUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFCF4762805E7E0CEC46992DD6021E /* QueryUtilities.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		8F0144F5E957EE456C61C99EE30002EF /* DefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64FD5FBB0372854DB7F961C6655ADC3 /* DefaultStorage.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		9478DCCB1A25EB831F58FF6B1E50BB49 /* YandexLoginSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0650C3CB22413DECE78E2E4F520D1A7 /* YandexLoginSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949752D53996B37CFE5D7C82A37953CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ADFF60E9DA4D0B38C9755D229889D5 /* ViewController.m */; };
+		9A48E60E95AA2CA87857721E61AD5B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E294CC6692C893F84500E35A5B415C /* Foundation.framework */; };
+		9C885C3FCC0C85F045202D3D08F2178D /* CoreLoginSDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A84DA2723E118C7F0C456C9C1A6155 /* CoreLoginSDKError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		B30D434539A9E3CBC8D35E056AFDD875 /* JWTResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C534B356124C028940710A4FAB74A68 /* JWTResponseParser.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		B469906EF74C44BFF23C35F35F34C71E /* PKCEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7C405F5A37076D6E8FB4B42367246 /* PKCEError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		B637A3132D5CE30041F4DA9165B5312E /* RequestComponentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E94B71FD0014747B8A4AB36BAAB6887 /* RequestComponentsProvider.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		B78C59DC9B331A9A817141ADB5D7921A /* MNWSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4E765434C8DB3315652D3A4CA7740 /* MNWSDK-dummy.m */; };
+		C0E23C4A8193463F1EC2012CB7D98909 /* TokenResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7AEFCD81AC357EE927853EA6D804B /* TokenResponseParser.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		C52B228C2788C7F7220ACB305F27C370 /* JWTRequestComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181488431C8E0600BDC028D0AF47288 /* JWTRequestComponents.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		CD10CF34127F54E99ACB230C9585B6ED /* ResponseParserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ACFCEF5F4552D87B095CE7A87894DA /* ResponseParserFactory.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		CEA2700474F960D1A0FD123BE86C4692 /* EnvironmentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E097DD2A7EE00B7BF988CB41289BAF /* EnvironmentInfo.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		D514A710A4D6C67AF6BA760B8E9AB6B1 /* URLSessionDataTaskDelegateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11090936E00AB1E1770AACE83044D488 /* URLSessionDataTaskDelegateStorage.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		E48978FD8653D96CFEAC48D67713A9B9 /* MNWSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1B15127BE3233D6EBBFD5FF5C88BBD /* MNWSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4EFF17C71D77D32C865B501A39C16B /* ActivationValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA58A3352CBBF0A65325C7182D84EB /* ActivationValidator.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		EDE9356BFC3ABC410BA95CC452AF61FE /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F22C60CDCA69649222E737731793CE /* SecureStorage.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		F144F6851EB9BABBC2B59F84F25A14A8 /* URLUtilitiesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6512550655ED04C3A8AE6D230FC1CE /* URLUtilitiesError.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		F2154890DFA99C0678B8674B1EE10AF7 /* HTTPOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C6BDB3FA9FE0AD9EB8732C8F1AFCB /* HTTPOperation.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+		FCD495B0D9AE98E589BEC02F92357400 /* URLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF80BF98AD63BF9FA9C7139EEFAE4A /* URLUtilities.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C915846AB441769601A1C454784461A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
+		};
+		35377C7AAA0A19DB956C9C3516A7359D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
+			remoteInfo = FBAEMKit;
+		};
+		36CDCA453374336A64236178FB9CD8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C5885FCB0908EF785774EE52473DAB;
+			remoteInfo = FBSDKLoginKit;
+		};
+		4FCD92367A2D06AB1B70840BF2648843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B7E9FCC674E977BE2D38FC2709798C;
+			remoteInfo = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+		};
+		514F82857493E372402D57358767612B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
+		};
+		53A712C64C55E31ECA5ABC8A852E6888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
+			remoteInfo = FBAEMKit;
+		};
+		687DD2B6DBE9C0BF7579D9937AB54E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+		83C78E837D9B9D8CC8E624A54BCDD699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CBD3958D57403F0295E562A15B39C0;
+			remoteInfo = YandexLoginSDK;
+		};
+		893FAB4925BCDB20F74948959A4566C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B23938B1EBCBAD2419AB6E9D222A0B;
+			remoteInfo = AppsFlyerFramework;
+		};
+		9A7DD44715F2106C8D7602E6B0A54945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+		AB802949220C3C79FC94F49BD008FA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728D5D3056BEB88DD56A03681EADA912;
+			remoteInfo = MNWSDK;
+		};
+		B432121CAAC728BC5A90A878EBD8CA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07168B017E39F58599F0CBA33E573AB6 /* FBSDKCoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		080FE70CDFEFA09D0996ACB4023D2C92 /* Pods-YandexTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YandexTest-Info.plist"; sourceTree = "<group>"; };
+		08420371E0C15CAB14946EB092F366A4 /* MNWSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNWSDK.debug.xcconfig; sourceTree = "<group>"; };
+		08ADFF60E9DA4D0B38C9755D229889D5 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = "<group>"; };
+		0A0F68F263F4FB1D4F01684C9F947EA9 /* Pods-YandexTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YandexTest-dummy.m"; sourceTree = "<group>"; };
+		0BE86CBDE37CFC9AF42AD278E4D146BB /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKLoginKit.xcframework; path = XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		10A84DA2723E118C7F0C456C9C1A6155 /* CoreLoginSDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreLoginSDKError.swift; path = Sources/YandexLoginSDK/Private/Errors/CoreLoginSDKError.swift; sourceTree = "<group>"; };
+		11090936E00AB1E1770AACE83044D488 /* URLSessionDataTaskDelegateStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDataTaskDelegateStorage.swift; path = Sources/YandexLoginSDK/Private/Networking/URLSessionDataTaskDelegateStorage.swift; sourceTree = "<group>"; };
+		11E234D8A6B5F1EC599C1E9A3E95A798 /* FBAEMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.debug.xcconfig; sourceTree = "<group>"; };
+		15DC466FBE4DFFE0DBF5C42ED86F6C61 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		186BF09C13D24A302198F40731F6FA1E /* StatesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatesManager.swift; path = Sources/YandexLoginSDK/Private/Core/StatesManager.swift; sourceTree = "<group>"; };
+		18ACFCEF5F4552D87B095CE7A87894DA /* ResponseParserFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseParserFactory.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/ResponseParserFactory.swift; sourceTree = "<group>"; };
+		1E65F554EA3C300512487F9EDDCD5D21 /* Pods-YandexTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YandexTest-umbrella.h"; sourceTree = "<group>"; };
+		208E8C41190845960319CC59331E75EF /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/YandexLoginSDK/Private/Storage/Storage.swift; sourceTree = "<group>"; };
+		23E097DD2A7EE00B7BF988CB41289BAF /* EnvironmentInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnvironmentInfo.swift; path = Sources/YandexLoginSDK/Private/Core/EnvironmentInfo.swift; sourceTree = "<group>"; };
+		24A18282BB7BCE73E7F7214A20D90A96 /* FBSDKLoginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKLoginKit.debug.xcconfig; sourceTree = "<group>"; };
+		2CBE6694B38E88A453512D4BB64B3C60 /* FBSDKLoginKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKLoginKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		2F2C32BE6E4B3B8510A8BDF91C56C1CF /* FBSDKCoreKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		303F29BAC395C51DF856A41DC054BE4B /* ApplicationPrimacy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationPrimacy.swift; path = Sources/YandexLoginSDK/Private/Core/ApplicationPrimacy.swift; sourceTree = "<group>"; };
+		3074D4682010B440FAA0D843499D9757 /* ObserversController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserversController.swift; path = Sources/YandexLoginSDK/Private/Core/ObserversController.swift; sourceTree = "<group>"; };
+		330C129C27335E0E27B45F3839ABCBF8 /* LoginResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginResult.swift; path = Sources/YandexLoginSDK/Public/LoginResult.swift; sourceTree = "<group>"; };
+		384DC77EDB3E438AD515E71BC98BDA9D /* Pods-YandexTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YandexTest.modulemap"; sourceTree = "<group>"; };
+		3852860BAC0C988691A045443E749D84 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Sources/YandexLoginSDK/Private/Networking/SessionManager.swift; sourceTree = "<group>"; };
+		396430529CAA1C4AA625ECE1B691F75A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = binaries/Resources/nonStrict/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3CB4FC654DBF501271CA285BB64C8756 /* CryptoUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoUtilities.swift; path = Sources/YandexLoginSDK/Private/Utilities/CryptoUtilities.swift; sourceTree = "<group>"; };
+		3E94B71FD0014747B8A4AB36BAAB6887 /* RequestComponentsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestComponentsProvider.swift; path = Sources/YandexLoginSDK/Private/Networking/RequestComponents/RequestComponentsProvider.swift; sourceTree = "<group>"; };
+		3EEF80BF98AD63BF9FA9C7139EEFAE4A /* URLUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLUtilities.swift; path = Sources/YandexLoginSDK/Private/Utilities/URLUtilities.swift; sourceTree = "<group>"; };
+		40020CE20A150894CC2D8ADBD4490FFB /* FBSDKCoreKit_Basics-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit_Basics-xcframeworks.sh"; sourceTree = "<group>"; };
+		40FEC40FB798F06F39887D3EAFFDB024 /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppsFlyerLib.xcframework; path = binaries/xcframework/full/AppsFlyerLib.xcframework; sourceTree = "<group>"; };
+		4187832CADBBC93380D31A8E9FF82957 /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
+		42858516B8465B51CE4C94341BAFC283 /* MNWSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MNWSDK-Info.plist"; sourceTree = "<group>"; };
+		47A7C405F5A37076D6E8FB4B42367246 /* PKCEError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCEError.swift; path = Sources/YandexLoginSDK/Private/Errors/PKCEError.swift; sourceTree = "<group>"; };
+		49E7FB449223661820C661E535061E1E /* FBAEMKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBAEMKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		4A1350D3742D0296F98295C4B4127AE1 /* QueryUtilitiesError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryUtilitiesError.swift; path = Sources/YandexLoginSDK/Private/Errors/QueryUtilitiesError.swift; sourceTree = "<group>"; };
+		51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YandexLoginSDK; path = YandexLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536F87C23E821E5CF8BDCAC4B45635D8 /* AppsFlyerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.debug.xcconfig; sourceTree = "<group>"; };
+		539CD042A6A3B61B1E3FA12F357C2553 /* StorageError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageError.swift; path = Sources/YandexLoginSDK/Private/Errors/StorageError.swift; sourceTree = "<group>"; };
+		59EFCF4762805E7E0CEC46992DD6021E /* QueryUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryUtilities.swift; path = Sources/YandexLoginSDK/Private/Utilities/QueryUtilities.swift; sourceTree = "<group>"; };
+		5BDFF7202D14C6F2140191E0D6C88458 /* Pods-YandexTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YandexTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5C534B356124C028940710A4FAB74A68 /* JWTResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/JWTResponseParser.swift; sourceTree = "<group>"; };
+		5E3D40B2D9AE9437AA2E27BC84FE46B4 /* YandexLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexLoginSDK.release.xcconfig; sourceTree = "<group>"; };
+		5FED35BE6DCB1878F6F48D7702D1EFFC /* YandexLoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexLoginSDK.debug.xcconfig; sourceTree = "<group>"; };
+		605C9F1EC5FB5D677E50AC021E14B1ED /* Pods-YandexTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YandexTest"; path = Pods_YandexTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFBA63B7C502B991192770841C2ED9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6D40F057A1F89AE96C7BBCAAC567F25F /* SharedStorages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedStorages.swift; path = Sources/YandexLoginSDK/Private/Storage/SharedStorages.swift; sourceTree = "<group>"; };
+		6FB15BBD092F4360A390BEB2203E8135 /* FBSDKLoginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKLoginKit.release.xcconfig; sourceTree = "<group>"; };
+		768C6BDB3FA9FE0AD9EB8732C8F1AFCB /* HTTPOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPOperation.swift; path = Sources/YandexLoginSDK/Private/Networking/HTTPOperation.swift; sourceTree = "<group>"; };
+		78E294CC6692C893F84500E35A5B415C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B1B15127BE3233D6EBBFD5FF5C88BBD /* MNWSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MNWSDK-umbrella.h"; sourceTree = "<group>"; };
+		7C0CE87B3AACBCABDB83E884580E66DA /* YandexLoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YandexLoginSDK-prefix.pch"; sourceTree = "<group>"; };
+		7C7CBA1C3B4DF9A17822BB03C17AF3BE /* NetworkingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkingError.swift; path = Sources/YandexLoginSDK/Private/Errors/NetworkingError.swift; sourceTree = "<group>"; };
+		7CCD357F52BC248160F0EA07C38A1875 /* Pods-YandexTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YandexTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E7F1A4EC076B25EC93301A272163C77 /* StorageUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageUtilities.swift; path = Sources/YandexLoginSDK/Private/Utilities/StorageUtilities.swift; sourceTree = "<group>"; };
+		83ECCCD750B1E671BEE39A12C389063A /* Pods-YandexTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YandexTest-resources.sh"; sourceTree = "<group>"; };
+		887848B8121A510E6B78E24F3A57C148 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/YandexLoginSDK/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8EA2E18000CB213F5F788CC350B09989 /* ActivationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationError.swift; path = Sources/YandexLoginSDK/Private/Errors/ActivationError.swift; sourceTree = "<group>"; };
+		95C733E71C418FBB7A1302C4B5F24FCC /* FBSDKCoreKit_Basics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.debug.xcconfig; sourceTree = "<group>"; };
+		9BBC8BD975983F22887850CF294BC9F1 /* YandexLoginSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YandexLoginSDK.swift; path = Sources/YandexLoginSDK/Public/YandexLoginSDK.swift; sourceTree = "<group>"; };
+		9BD4E765434C8DB3315652D3A4CA7740 /* MNWSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MNWSDK-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0650C3CB22413DECE78E2E4F520D1A7 /* YandexLoginSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YandexLoginSDK-umbrella.h"; sourceTree = "<group>"; };
+		A13854A54AC9D81E03CBA206E276B8D7 /* FBSDKCoreKit_Basics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.release.xcconfig; sourceTree = "<group>"; };
+		A1DE216B52D71E63A9E59A047423B4E1 /* ResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/ResponseParser.swift; sourceTree = "<group>"; };
+		A20970ED85A78397BC648EFF5A536D55 /* MNWSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MNWSDK.modulemap; sourceTree = "<group>"; };
+		A7BD852657E26C00BCF09D2EA5793FED /* YandexLoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YandexLoginSDK-dummy.m"; sourceTree = "<group>"; };
+		AB078FCA8F708B082FAB9D13C5BAF46C /* Pods-YandexTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YandexTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADFA3FA0D60D3DFB1B610AF01FD7A235 /* YandexLoginSDKObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YandexLoginSDKObserver.swift; path = Sources/YandexLoginSDK/Public/YandexLoginSDKObserver.swift; sourceTree = "<group>"; };
+		B64FD5FBB0372854DB7F961C6655ADC3 /* DefaultStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultStorage.swift; path = Sources/YandexLoginSDK/Private/Storage/DefaultStorage.swift; sourceTree = "<group>"; };
+		B8F22C60CDCA69649222E737731793CE /* SecureStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureStorage.swift; path = Sources/YandexLoginSDK/Private/Storage/SecureStorage.swift; sourceTree = "<group>"; };
+		B9E9B81AA5629CD863EF80827DB73F31 /* URLSessionDataTaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDataTaskDelegate.swift; path = Sources/YandexLoginSDK/Private/Networking/URLSessionDataTaskDelegate.swift; sourceTree = "<group>"; };
+		BE8735B65999BDED1FE1B06920CB9923 /* HostProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HostProvider.swift; path = Sources/YandexLoginSDK/Private/Utilities/HostProvider.swift; sourceTree = "<group>"; };
+		C06BD5B4CC0B23CF9A34D476E926301D /* MNWSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MNWSDK; path = MNWSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C1643F632CA05528B6928B2E2C2E1E /* FBAEMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.release.xcconfig; sourceTree = "<group>"; };
+		C181488431C8E0600BDC028D0AF47288 /* JWTRequestComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTRequestComponents.swift; path = Sources/YandexLoginSDK/Private/Networking/RequestComponents/JWTRequestComponents.swift; sourceTree = "<group>"; };
+		C2A5F375835763B2DC13005D1664F0B2 /* AuthorizationParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationParameters.swift; path = Sources/YandexLoginSDK/Private/Core/AuthorizationParameters.swift; sourceTree = "<group>"; };
+		C39DDBFC2971D9EFD30968A512732C87 /* TokenRequestComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenRequestComponents.swift; path = Sources/YandexLoginSDK/Private/Networking/RequestComponents/TokenRequestComponents.swift; sourceTree = "<group>"; };
+		C581FC8AC255CD577CE6E5010A864589 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CCCA58A3352CBBF0A65325C7182D84EB /* ActivationValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationValidator.swift; path = Sources/YandexLoginSDK/Private/Utilities/ActivationValidator.swift; sourceTree = "<group>"; };
+		CEB71510424C8A0E6571381B7BF76FC0 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		D0669C9858DAB1D3D9FBE9CE568ECF4A /* HTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = Sources/YandexLoginSDK/Private/Networking/HTTPClient.swift; sourceTree = "<group>"; };
+		D429A5026E092E0E8967A5BA73467E03 /* Pods-YandexTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YandexTest.release.xcconfig"; sourceTree = "<group>"; };
+		D4497530F760E1CF13366E035DA37232 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CryptoKit.framework; sourceTree = DEVELOPER_DIR; };
+		D69803F11186EB9DB5330FB1EBEE5FBB /* ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist"; sourceTree = "<group>"; };
+		D8B938D75810A39CC97BAFD0751D7589 /* AppsFlyerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.release.xcconfig; sourceTree = "<group>"; };
+		DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerFramework-AppsFlyerLib_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppsFlyerFramework-AppsFlyerLib_Privacy"; path = AppsFlyerLib_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE49D8A29F6218400D2F94BF06DC275B /* AppsFlyerFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppsFlyerFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		E3F314F4ABA37F2CAE80847124948796 /* YandexLoginSDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YandexLoginSDKError.swift; path = Sources/YandexLoginSDK/Public/YandexLoginSDKError.swift; sourceTree = "<group>"; };
+		E4B5C61E2967BB6E8F2C7211788EA1A8 /* FBSDKCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.release.xcconfig; sourceTree = "<group>"; };
+		E7F34A77525E46AB297F10891685FAB9 /* MNWSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNWSDK.release.xcconfig; sourceTree = "<group>"; };
+		E919DD3AF7877C32180C926DA784AEC4 /* YandexLoginSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YandexLoginSDK.modulemap; sourceTree = "<group>"; };
+		F0C42059B2562E465F167F4D67F7EE21 /* Pods-YandexTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YandexTest-frameworks.sh"; sourceTree = "<group>"; };
+		F2D355C4E7C0C3588F36888272032F5D /* YandexLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YandexLoginSDK-Info.plist"; sourceTree = "<group>"; };
+		F3F40E57EC5CB63841585DD41FA8B0B9 /* PKCE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCE.swift; path = Sources/YandexLoginSDK/Private/Core/PKCE.swift; sourceTree = "<group>"; };
+		FA7880CB52BF729E48CAD8080463B3BC /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = "<group>"; };
+		FA9C5CCD8A91263B2CC645E8259D1D9E /* MNWSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MNWSDK-prefix.pch"; sourceTree = "<group>"; };
+		FF6512550655ED04C3A8AE6D230FC1CE /* URLUtilitiesError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLUtilitiesError.swift; path = Sources/YandexLoginSDK/Private/Errors/URLUtilitiesError.swift; sourceTree = "<group>"; };
+		FFE7AEFCD81AC357EE927853EA6D804B /* TokenResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/TokenResponseParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1118B0D49D9BA2964BABB0100948BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C213FAB461D32D7AE1909225F470112F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A48E60E95AA2CA87857721E61AD5B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05036D03CD7776D2DB16A22314D5618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16646E9015F5AC62FAFE112CC510AF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9317E4C7971BA22C03E1EAFF092DCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5713E20B63AAF7C35AB0232CB290F313 /* CryptoKit.framework in Frameworks */,
+				29D1191C746C1068D2329F3E4009F32C /* Foundation.framework in Frameworks */,
+				345BF4963454E312F210182D6BB529D7 /* Security.framework in Frameworks */,
+				49D653EA413C30F783C022CB1CA1A939 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1359CBFD39CC13513D7934CE145B1765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4187832CADBBC93380D31A8E9FF82957 /* FBAEMKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30220857E2E1D4851DEDD346E813F60A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F2C32BE6E4B3B8510A8BDF91C56C1CF /* FBSDKCoreKit-xcframeworks.sh */,
+				07168B017E39F58599F0CBA33E573AB6 /* FBSDKCoreKit.debug.xcconfig */,
+				E4B5C61E2967BB6E8F2C7211788EA1A8 /* FBSDKCoreKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKCoreKit";
+			sourceTree = "<group>";
+		};
+		3C2B87F040DE1016A8B012D362962C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D0FA0DCA6E271D4BE2C56F7E266F97 /* AppsFlyerFramework */,
+				6BB1573E14E375384E4C6F84956B5A14 /* FBAEMKit */,
+				DC0063AAF871196B047EEC0D11D05AC3 /* FBSDKCoreKit */,
+				FC863E32300226E671F2AB38DD0655A9 /* FBSDKCoreKit_Basics */,
+				7FC54BF46E3E8D077827AEAD0039E242 /* FBSDKLoginKit */,
+				815FBE00A2B877F0BD2414BAC0FD944C /* MNWSDK */,
+				C79DA52A91C98420C0B3D9040D61706B /* YandexLoginSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CBEEC1B49A537429B62AED2A4621EB2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4497530F760E1CF13366E035DA37232 /* CryptoKit.framework */,
+				78E294CC6692C893F84500E35A5B415C /* Foundation.framework */,
+				C581FC8AC255CD577CE6E5010A864589 /* Security.framework */,
+				6CFBA63B7C502B991192770841C2ED9C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F7A10C108D183A2C1E3738C7358149C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40020CE20A150894CC2D8ADBD4490FFB /* FBSDKCoreKit_Basics-xcframeworks.sh */,
+				95C733E71C418FBB7A1302C4B5F24FCC /* FBSDKCoreKit_Basics.debug.xcconfig */,
+				A13854A54AC9D81E03CBA206E276B8D7 /* FBSDKCoreKit_Basics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKCoreKit_Basics";
+			sourceTree = "<group>";
+		};
+		672DB5EF2BB94A5FD12DE42146F72516 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E7FB449223661820C661E535061E1E /* FBAEMKit-xcframeworks.sh */,
+				11E234D8A6B5F1EC599C1E9A3E95A798 /* FBAEMKit.debug.xcconfig */,
+				C0C1643F632CA05528B6928B2E2C2E1E /* FBAEMKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBAEMKit";
+			sourceTree = "<group>";
+		};
+		67D0FA0DCA6E271D4BE2C56F7E266F97 /* AppsFlyerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				81ACF27BFFC538D3CCEE0F5538D1ECB8 /* Main */,
+				E1DB8BDC7905EDD46B074EDB3703F6AF /* Support Files */,
+			);
+			name = AppsFlyerFramework;
+			path = AppsFlyerFramework;
+			sourceTree = "<group>";
+		};
+		6B97A158A3AF736439430F24E5B3E64C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE86CBDE37CFC9AF42AD278E4D146BB /* FBSDKLoginKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BB1573E14E375384E4C6F84956B5A14 /* FBAEMKit */ = {
+			isa = PBXGroup;
+			children = (
+				1359CBFD39CC13513D7934CE145B1765 /* Frameworks */,
+				672DB5EF2BB94A5FD12DE42146F72516 /* Support Files */,
+			);
+			name = FBAEMKit;
+			path = FBAEMKit;
+			sourceTree = "<group>";
+		};
+		7FC54BF46E3E8D077827AEAD0039E242 /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B97A158A3AF736439430F24E5B3E64C /* Frameworks */,
+				D87ED073AD4D7026BCFFF10CC566D4C5 /* Support Files */,
+			);
+			name = FBSDKLoginKit;
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		815FBE00A2B877F0BD2414BAC0FD944C /* MNWSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA7880CB52BF729E48CAD8080463B3BC /* ViewController.h */,
+				08ADFF60E9DA4D0B38C9755D229889D5 /* ViewController.m */,
+				EA0C8118997A7D7D89C751F304718989 /* Support Files */,
+			);
+			name = MNWSDK;
+			path = MNWSDK;
+			sourceTree = "<group>";
+		};
+		81ACF27BFFC538D3CCEE0F5538D1ECB8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF6CF809B6A533BFF5C29DB2274BC5 /* Frameworks */,
+				AC29EDAD6F524B7D99AD6C9AD5A49E4F /* Resources */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8236A9E61AE046A7468814C77CF49327 /* Pods-YandexTest */ = {
+			isa = PBXGroup;
+			children = (
+				384DC77EDB3E438AD515E71BC98BDA9D /* Pods-YandexTest.modulemap */,
+				AB078FCA8F708B082FAB9D13C5BAF46C /* Pods-YandexTest-acknowledgements.markdown */,
+				7CCD357F52BC248160F0EA07C38A1875 /* Pods-YandexTest-acknowledgements.plist */,
+				0A0F68F263F4FB1D4F01684C9F947EA9 /* Pods-YandexTest-dummy.m */,
+				F0C42059B2562E465F167F4D67F7EE21 /* Pods-YandexTest-frameworks.sh */,
+				080FE70CDFEFA09D0996ACB4023D2C92 /* Pods-YandexTest-Info.plist */,
+				83ECCCD750B1E671BEE39A12C389063A /* Pods-YandexTest-resources.sh */,
+				1E65F554EA3C300512487F9EDDCD5D21 /* Pods-YandexTest-umbrella.h */,
+				5BDFF7202D14C6F2140191E0D6C88458 /* Pods-YandexTest.debug.xcconfig */,
+				D429A5026E092E0E8967A5BA73467E03 /* Pods-YandexTest.release.xcconfig */,
+			);
+			name = "Pods-YandexTest";
+			path = "Target Support Files/Pods-YandexTest";
+			sourceTree = "<group>";
+		};
+		A5BF6CF809B6A533BFF5C29DB2274BC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FEC40FB798F06F39887D3EAFFDB024 /* AppsFlyerLib.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC29EDAD6F524B7D99AD6C9AD5A49E4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				396430529CAA1C4AA625ECE1B691F75A /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B900209B8D49A1F749E8E40960E1D314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerFramework-AppsFlyerLib_Privacy */,
+				C06BD5B4CC0B23CF9A34D476E926301D /* MNWSDK */,
+				605C9F1EC5FB5D677E50AC021E14B1ED /* Pods-YandexTest */,
+				51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CBEEC1B49A537429B62AED2A4621EB2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C79DA52A91C98420C0B3D9040D61706B /* YandexLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8EA2E18000CB213F5F788CC350B09989 /* ActivationError.swift */,
+				CCCA58A3352CBBF0A65325C7182D84EB /* ActivationValidator.swift */,
+				303F29BAC395C51DF856A41DC054BE4B /* ApplicationPrimacy.swift */,
+				C2A5F375835763B2DC13005D1664F0B2 /* AuthorizationParameters.swift */,
+				10A84DA2723E118C7F0C456C9C1A6155 /* CoreLoginSDKError.swift */,
+				3CB4FC654DBF501271CA285BB64C8756 /* CryptoUtilities.swift */,
+				B64FD5FBB0372854DB7F961C6655ADC3 /* DefaultStorage.swift */,
+				23E097DD2A7EE00B7BF988CB41289BAF /* EnvironmentInfo.swift */,
+				BE8735B65999BDED1FE1B06920CB9923 /* HostProvider.swift */,
+				D0669C9858DAB1D3D9FBE9CE568ECF4A /* HTTPClient.swift */,
+				768C6BDB3FA9FE0AD9EB8732C8F1AFCB /* HTTPOperation.swift */,
+				C181488431C8E0600BDC028D0AF47288 /* JWTRequestComponents.swift */,
+				5C534B356124C028940710A4FAB74A68 /* JWTResponseParser.swift */,
+				330C129C27335E0E27B45F3839ABCBF8 /* LoginResult.swift */,
+				7C7CBA1C3B4DF9A17822BB03C17AF3BE /* NetworkingError.swift */,
+				3074D4682010B440FAA0D843499D9757 /* ObserversController.swift */,
+				F3F40E57EC5CB63841585DD41FA8B0B9 /* PKCE.swift */,
+				47A7C405F5A37076D6E8FB4B42367246 /* PKCEError.swift */,
+				887848B8121A510E6B78E24F3A57C148 /* PrivacyInfo.xcprivacy */,
+				59EFCF4762805E7E0CEC46992DD6021E /* QueryUtilities.swift */,
+				4A1350D3742D0296F98295C4B4127AE1 /* QueryUtilitiesError.swift */,
+				3E94B71FD0014747B8A4AB36BAAB6887 /* RequestComponentsProvider.swift */,
+				A1DE216B52D71E63A9E59A047423B4E1 /* ResponseParser.swift */,
+				18ACFCEF5F4552D87B095CE7A87894DA /* ResponseParserFactory.swift */,
+				B8F22C60CDCA69649222E737731793CE /* SecureStorage.swift */,
+				3852860BAC0C988691A045443E749D84 /* SessionManager.swift */,
+				6D40F057A1F89AE96C7BBCAAC567F25F /* SharedStorages.swift */,
+				186BF09C13D24A302198F40731F6FA1E /* StatesManager.swift */,
+				208E8C41190845960319CC59331E75EF /* Storage.swift */,
+				539CD042A6A3B61B1E3FA12F357C2553 /* StorageError.swift */,
+				7E7F1A4EC076B25EC93301A272163C77 /* StorageUtilities.swift */,
+				C39DDBFC2971D9EFD30968A512732C87 /* TokenRequestComponents.swift */,
+				FFE7AEFCD81AC357EE927853EA6D804B /* TokenResponseParser.swift */,
+				B9E9B81AA5629CD863EF80827DB73F31 /* URLSessionDataTaskDelegate.swift */,
+				11090936E00AB1E1770AACE83044D488 /* URLSessionDataTaskDelegateStorage.swift */,
+				3EEF80BF98AD63BF9FA9C7139EEFAE4A /* URLUtilities.swift */,
+				FF6512550655ED04C3A8AE6D230FC1CE /* URLUtilitiesError.swift */,
+				9BBC8BD975983F22887850CF294BC9F1 /* YandexLoginSDK.swift */,
+				E3F314F4ABA37F2CAE80847124948796 /* YandexLoginSDKError.swift */,
+				ADFA3FA0D60D3DFB1B610AF01FD7A235 /* YandexLoginSDKObserver.swift */,
+				D7049456E1F52A092BA4C9D40466B6A2 /* Support Files */,
+			);
+			name = YandexLoginSDK;
+			path = YandexLoginSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				3C2B87F040DE1016A8B012D362962C7E /* Pods */,
+				B900209B8D49A1F749E8E40960E1D314 /* Products */,
+				EA9F177204A3057EC264D3A61D7071EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7049456E1F52A092BA4C9D40466B6A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E919DD3AF7877C32180C926DA784AEC4 /* YandexLoginSDK.modulemap */,
+				A7BD852657E26C00BCF09D2EA5793FED /* YandexLoginSDK-dummy.m */,
+				F2D355C4E7C0C3588F36888272032F5D /* YandexLoginSDK-Info.plist */,
+				7C0CE87B3AACBCABDB83E884580E66DA /* YandexLoginSDK-prefix.pch */,
+				A0650C3CB22413DECE78E2E4F520D1A7 /* YandexLoginSDK-umbrella.h */,
+				5FED35BE6DCB1878F6F48D7702D1EFFC /* YandexLoginSDK.debug.xcconfig */,
+				5E3D40B2D9AE9437AA2E27BC84FE46B4 /* YandexLoginSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YandexLoginSDK";
+			sourceTree = "<group>";
+		};
+		D87ED073AD4D7026BCFFF10CC566D4C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE6694B38E88A453512D4BB64B3C60 /* FBSDKLoginKit-xcframeworks.sh */,
+				24A18282BB7BCE73E7F7214A20D90A96 /* FBSDKLoginKit.debug.xcconfig */,
+				6FB15BBD092F4360A390BEB2203E8135 /* FBSDKLoginKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKLoginKit";
+			sourceTree = "<group>";
+		};
+		DC0063AAF871196B047EEC0D11D05AC3 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2448356D36B08BAB6684CCE97CE3A99 /* Frameworks */,
+				30220857E2E1D4851DEDD346E813F60A /* Support Files */,
+			);
+			name = FBSDKCoreKit;
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		E1DB8BDC7905EDD46B074EDB3703F6AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE49D8A29F6218400D2F94BF06DC275B /* AppsFlyerFramework-xcframeworks.sh */,
+				536F87C23E821E5CF8BDCAC4B45635D8 /* AppsFlyerFramework.debug.xcconfig */,
+				D8B938D75810A39CC97BAFD0751D7589 /* AppsFlyerFramework.release.xcconfig */,
+				D69803F11186EB9DB5330FB1EBEE5FBB /* ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppsFlyerFramework";
+			sourceTree = "<group>";
+		};
+		E2448356D36B08BAB6684CCE97CE3A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB71510424C8A0E6571381B7BF76FC0 /* FBSDKCoreKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0C8118997A7D7D89C751F304718989 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20970ED85A78397BC648EFF5A536D55 /* MNWSDK.modulemap */,
+				9BD4E765434C8DB3315652D3A4CA7740 /* MNWSDK-dummy.m */,
+				42858516B8465B51CE4C94341BAFC283 /* MNWSDK-Info.plist */,
+				FA9C5CCD8A91263B2CC645E8259D1D9E /* MNWSDK-prefix.pch */,
+				7B1B15127BE3233D6EBBFD5FF5C88BBD /* MNWSDK-umbrella.h */,
+				08420371E0C15CAB14946EB092F366A4 /* MNWSDK.debug.xcconfig */,
+				E7F34A77525E46AB297F10891685FAB9 /* MNWSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MNWSDK";
+			sourceTree = "<group>";
+		};
+		EA9F177204A3057EC264D3A61D7071EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8236A9E61AE046A7468814C77CF49327 /* Pods-YandexTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB61767D41C66E89CC8AB5A2AA4A97D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DC466FBE4DFFE0DBF5C42ED86F6C61 /* FBSDKCoreKit_Basics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC863E32300226E671F2AB38DD0655A9 /* FBSDKCoreKit_Basics */ = {
+			isa = PBXGroup;
+			children = (
+				FB61767D41C66E89CC8AB5A2AA4A97D4 /* Frameworks */,
+				5F7A10C108D183A2C1E3738C7358149C /* Support Files */,
+			);
+			name = FBSDKCoreKit_Basics;
+			path = FBSDKCoreKit_Basics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76378E73F8A96842A9035EA330A9A6D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9478DCCB1A25EB831F58FF6B1E50BB49 /* YandexLoginSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF477EC9D81ECD0103577CD70D3A2596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFDDF4A04A1AA2373B9322899C688BA /* Pods-YandexTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A172C80594BE6C860872532734111A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48978FD8653D96CFEAC48D67713A9B9 /* MNWSDK-umbrella.h in Headers */,
+				64B154CFCEF8C451C7784C632BE46229 /* ViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		728D5D3056BEB88DD56A03681EADA912 /* MNWSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF5623C198EFFB1861F478426D189E4 /* Build configuration list for PBXNativeTarget "MNWSDK" */;
+			buildPhases = (
+				D7A172C80594BE6C860872532734111A /* Headers */,
+				697C94955AF6498C5610542A7EC4DD29 /* Sources */,
+				D05036D03CD7776D2DB16A22314D5618 /* Frameworks */,
+				F2EBE3553190224EDC1BF3E551F0B38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNWSDK;
+			productName = MNWSDK;
+			productReference = C06BD5B4CC0B23CF9A34D476E926301D /* MNWSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A9D4F860C837EF3D5A18E0622F2104A /* Pods-YandexTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D679D9CD636698D29EFA227D8A227137 /* Build configuration list for PBXNativeTarget "Pods-YandexTest" */;
+			buildPhases = (
+				CF477EC9D81ECD0103577CD70D3A2596 /* Headers */,
+				1F7FB9FC3BA37A552A84449525C40486 /* Sources */,
+				C213FAB461D32D7AE1909225F470112F /* Frameworks */,
+				F4CA5E59C1686DCA18CE44982D9AC863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B417FA325AFE8CB7692D35B258B3BC9 /* PBXTargetDependency */,
+				8A4B9C4863E3C2CE1155CFE8BD18A514 /* PBXTargetDependency */,
+				D3D631BFED3725BB6EBF5E392AFC5A6B /* PBXTargetDependency */,
+				EC5E0AC6CCD0ACAE8272E63335020F02 /* PBXTargetDependency */,
+				AFF8A6D0B675AFE35F2F73322B077C89 /* PBXTargetDependency */,
+				0ED7B4A6EFF75F5B94B13D75EA7BD800 /* PBXTargetDependency */,
+				5647C8D0360943D9D55085695AD20FBD /* PBXTargetDependency */,
+			);
+			name = "Pods-YandexTest";
+			productName = Pods_YandexTest;
+			productReference = 605C9F1EC5FB5D677E50AC021E14B1ED /* Pods-YandexTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8CBD3958D57403F0295E562A15B39C0 /* YandexLoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8273572C8277E470B31D64D21C4AE568 /* Build configuration list for PBXNativeTarget "YandexLoginSDK" */;
+			buildPhases = (
+				76378E73F8A96842A9035EA330A9A6D9 /* Headers */,
+				5B1662A8255C8AFE4EFDF4F6B5E1A073 /* Sources */,
+				F9317E4C7971BA22C03E1EAFF092DCF2 /* Frameworks */,
+				79E15F9158A75C438CF5187A24281554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexLoginSDK;
+			productName = YandexLoginSDK;
+			productReference = 51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267322C0D1A0F3D9C7166F81F1197604 /* Build configuration list for PBXNativeTarget "AppsFlyerFramework-AppsFlyerLib_Privacy" */;
+			buildPhases = (
+				3293AB29365C8792B4B2FC4E67C332FC /* Sources */,
+				B1118B0D49D9BA2964BABB0100948BCB /* Frameworks */,
+				D17D58CE9D812B8C6C6D9E5FAD796B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+			productName = AppsFlyerLib_Privacy;
+			productReference = DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerFramework-AppsFlyerLib_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B900209B8D49A1F749E8E40960E1D314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */,
+				C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */,
+				479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */,
+				28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */,
+				8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */,
+				10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */,
+				728D5D3056BEB88DD56A03681EADA912 /* MNWSDK */,
+				7A9D4F860C837EF3D5A18E0622F2104A /* Pods-YandexTest */,
+				B8CBD3958D57403F0295E562A15B39C0 /* YandexLoginSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E15F9158A75C438CF5187A24281554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17D58CE9D812B8C6C6D9E5FAD796B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFE2BA97A64325B89A20FCFEE737CE3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EBE3553190224EDC1BF3E551F0B38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CA5E59C1686DCA18CE44982D9AC863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		427658F3E294DB5EF79EE37BA04E64E1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A261CEA870C48433C3575F1CCC2BB166 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05801FB1115AB56CF9E73BB6786A73A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F7274906B405E2CF20BDCEB6F3F2CE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7C100E6D7A5CF954757DB8962D9B72 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7FB9FC3BA37A552A84449525C40486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031213AD195EB852F8F553B4EE962412 /* Pods-YandexTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3293AB29365C8792B4B2FC4E67C332FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1662A8255C8AFE4EFDF4F6B5E1A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF02B981CC32A44BCECE860007D7601 /* ActivationError.swift in Sources */,
+				EA4EFF17C71D77D32C865B501A39C16B /* ActivationValidator.swift in Sources */,
+				83DC45F4DF5059BAEBBFFA471DAD684A /* ApplicationPrimacy.swift in Sources */,
+				4748D469DF06C86375D9E53969DDC724 /* AuthorizationParameters.swift in Sources */,
+				9C885C3FCC0C85F045202D3D08F2178D /* CoreLoginSDKError.swift in Sources */,
+				65E44B5CDAE3E26B139C95F2BB2E9FF1 /* CryptoUtilities.swift in Sources */,
+				8F0144F5E957EE456C61C99EE30002EF /* DefaultStorage.swift in Sources */,
+				CEA2700474F960D1A0FD123BE86C4692 /* EnvironmentInfo.swift in Sources */,
+				8BB37C3DB4F52D89CE56952506F5E814 /* HostProvider.swift in Sources */,
+				5D368726367F5C9572957ABB6AB0FEA7 /* HTTPClient.swift in Sources */,
+				F2154890DFA99C0678B8674B1EE10AF7 /* HTTPOperation.swift in Sources */,
+				C52B228C2788C7F7220ACB305F27C370 /* JWTRequestComponents.swift in Sources */,
+				B30D434539A9E3CBC8D35E056AFDD875 /* JWTResponseParser.swift in Sources */,
+				2F971CB9D067625167B4A77919C233BE /* LoginResult.swift in Sources */,
+				4E2BEF3707B6F2F3608DE9878459A64B /* NetworkingError.swift in Sources */,
+				7D4F983D05113F5973D276ED0AEF2100 /* ObserversController.swift in Sources */,
+				8577048583033A68A7220881E8FFCCA9 /* PKCE.swift in Sources */,
+				B469906EF74C44BFF23C35F35F34C71E /* PKCEError.swift in Sources */,
+				7D086D984BC929604FAA098FC2B7F6C6 /* PrivacyInfo.xcprivacy in Sources */,
+				8D527E4F85F721345B5E6C9E6A6DC6CE /* QueryUtilities.swift in Sources */,
+				824F242A208EB20254519E5448551BB5 /* QueryUtilitiesError.swift in Sources */,
+				B637A3132D5CE30041F4DA9165B5312E /* RequestComponentsProvider.swift in Sources */,
+				4CB6310EB8C71D897D9323BDCE55D749 /* ResponseParser.swift in Sources */,
+				CD10CF34127F54E99ACB230C9585B6ED /* ResponseParserFactory.swift in Sources */,
+				EDE9356BFC3ABC410BA95CC452AF61FE /* SecureStorage.swift in Sources */,
+				57DEE69C4482747319C40C092518DFB0 /* SessionManager.swift in Sources */,
+				0624D71770F2A8E63C24C5BF61C55F65 /* SharedStorages.swift in Sources */,
+				244575B91771EC58DE744EE4E7E4A8E8 /* StatesManager.swift in Sources */,
+				396F7760A4906EA1FE65A8BA51B4C76B /* Storage.swift in Sources */,
+				8AC8C7DC8B63A52CE6031399B8061290 /* StorageError.swift in Sources */,
+				0F1B1A594A7837D19E3EFFDBE6B78E97 /* StorageUtilities.swift in Sources */,
+				02072E37C5A9E7B39728BC64A6BF9EB6 /* TokenRequestComponents.swift in Sources */,
+				C0E23C4A8193463F1EC2012CB7D98909 /* TokenResponseParser.swift in Sources */,
+				2069D0105C6DBB1342048A4DF16A2538 /* URLSessionDataTaskDelegate.swift in Sources */,
+				D514A710A4D6C67AF6BA760B8E9AB6B1 /* URLSessionDataTaskDelegateStorage.swift in Sources */,
+				FCD495B0D9AE98E589BEC02F92357400 /* URLUtilities.swift in Sources */,
+				F144F6851EB9BABBC2B59F84F25A14A8 /* URLUtilitiesError.swift in Sources */,
+				6FAF8DAC9ACE4EBF7F35FCDF0B1CBDE8 /* YandexLoginSDK.swift in Sources */,
+				8428176A948FC697C2B1DC716039D024 /* YandexLoginSDK-dummy.m in Sources */,
+				10AA8207D3CA8F86FCCCF5DCBEA52E89 /* YandexLoginSDKError.swift in Sources */,
+				51CD220AC916385143E80E4E05B08C68 /* YandexLoginSDKObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697C94955AF6498C5610542A7EC4DD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78C59DC9B331A9A817141ADB5D7921A /* MNWSDK-dummy.m in Sources */,
+				949752D53996B37CFE5D7C82A37953CA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ED7B4A6EFF75F5B94B13D75EA7BD800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MNWSDK;
+			target = 728D5D3056BEB88DD56A03681EADA912 /* MNWSDK */;
+			targetProxy = AB802949220C3C79FC94F49BD008FA6C /* PBXContainerItemProxy */;
+		};
+		2B439533AB1B4DA5CB7680D481CEDD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+			target = C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */;
+			targetProxy = 4FCD92367A2D06AB1B70840BF2648843 /* PBXContainerItemProxy */;
+		};
+		5647C8D0360943D9D55085695AD20FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexLoginSDK;
+			target = B8CBD3958D57403F0295E562A15B39C0 /* YandexLoginSDK */;
+			targetProxy = 83C78E837D9B9D8CC8E624A54BCDD699 /* PBXContainerItemProxy */;
+		};
+		67A8135D3218D72B68B2E636E9E00640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = B432121CAAC728BC5A90A878EBD8CA85 /* PBXContainerItemProxy */;
+		};
+		6B417FA325AFE8CB7692D35B258B3BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppsFlyerFramework;
+			target = B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */;
+			targetProxy = 893FAB4925BCDB20F74948959A4566C0 /* PBXContainerItemProxy */;
+		};
+		76F7D38F4009C612A1E866317888FBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = 9A7DD44715F2106C8D7602E6B0A54945 /* PBXContainerItemProxy */;
+		};
+		8A4B9C4863E3C2CE1155CFE8BD18A514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAEMKit;
+			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
+			targetProxy = 53A712C64C55E31ECA5ABC8A852E6888 /* PBXContainerItemProxy */;
+		};
+		AFF8A6D0B675AFE35F2F73322B077C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKLoginKit;
+			target = 10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */;
+			targetProxy = 36CDCA453374336A64236178FB9CD8E6 /* PBXContainerItemProxy */;
+		};
+		D3D631BFED3725BB6EBF5E392AFC5A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = 1C915846AB441769601A1C454784461A /* PBXContainerItemProxy */;
+		};
+		DF932FF06387F84166B631CEA51ED742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = 514F82857493E372402D57358767612B /* PBXContainerItemProxy */;
+		};
+		EC5B801D9085F97173A16E0A9667C2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAEMKit;
+			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
+			targetProxy = 35377C7AAA0A19DB956C9C3516A7359D /* PBXContainerItemProxy */;
+		};
+		EC5E0AC6CCD0ACAE8272E63335020F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = 687DD2B6DBE9C0BF7579D9937AB54E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B1779AF40872354D2417183905D69AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB15BBD092F4360A390BEB2203E8135 /* FBSDKLoginKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C4CF7182A2C58278898886ABECF4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A18282BB7BCE73E7F7214A20D90A96 /* FBSDKLoginKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		467C76D5DBA31A5FBD392891A06B63C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F34A77525E46AB297F10891685FAB9 /* MNWSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MNWSDK/MNWSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MNWSDK/MNWSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MNWSDK/MNWSDK.modulemap";
+				PRODUCT_MODULE_NAME = MNWSDK;
+				PRODUCT_NAME = MNWSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A23F1203421E4CF6B79B43E8332B863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B938D75810A39CC97BAFD0751D7589 /* AppsFlyerFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D20BA5D7F830DFD115A3AB18F22E90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C733E71C418FBB7A1302C4B5F24FCC /* FBSDKCoreKit_Basics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73EA9241D839C99A669D85975035CDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08420371E0C15CAB14946EB092F366A4 /* MNWSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MNWSDK/MNWSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MNWSDK/MNWSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MNWSDK/MNWSDK.modulemap";
+				PRODUCT_MODULE_NAME = MNWSDK;
+				PRODUCT_NAME = MNWSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DE4D907E8E56EA010E6C47CF585A2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FED35BE6DCB1878F6F48D7702D1EFFC /* YandexLoginSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/YandexLoginSDK/YandexLoginSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/YandexLoginSDK/YandexLoginSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YandexLoginSDK/YandexLoginSDK.modulemap";
+				PRODUCT_MODULE_NAME = YandexLoginSDK;
+				PRODUCT_NAME = YandexLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F61D7A866D5005E987D463223322769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C1643F632CA05528B6928B2E2C2E1E /* FBAEMKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C74988293781C8D0D13C8287731679D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3D40B2D9AE9437AA2E27BC84FE46B4 /* YandexLoginSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/YandexLoginSDK/YandexLoginSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/YandexLoginSDK/YandexLoginSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YandexLoginSDK/YandexLoginSDK.modulemap";
+				PRODUCT_MODULE_NAME = YandexLoginSDK;
+				PRODUCT_NAME = YandexLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95936B92AA48B506A02C15BB92716C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B938D75810A39CC97BAFD0751D7589 /* AppsFlyerFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppsFlyerFramework";
+				IBSC_MODULE = AppsFlyerFramework;
+				INFOPLIST_FILE = "Target Support Files/AppsFlyerFramework/ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppsFlyerLib_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		99A6E2A2C1D500617DAAC7110C82BDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536F87C23E821E5CF8BDCAC4B45635D8 /* AppsFlyerFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7C3B3A84557D1A706B25DE7D84A432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13854A54AC9D81E03CBA206E276B8D7 /* FBSDKCoreKit_Basics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B92194816CD555817018B3AE6BD0219D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E234D8A6B5F1EC599C1E9A3E95A798 /* FBAEMKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C422B908463E9B0A76EE591B6F24618B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDFF7202D14C6F2140191E0D6C88458 /* Pods-YandexTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YandexTest/Pods-YandexTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YandexTest/Pods-YandexTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2F8DC1D96B2D5476752F2B3BF0F31CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536F87C23E821E5CF8BDCAC4B45635D8 /* AppsFlyerFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppsFlyerFramework";
+				IBSC_MODULE = AppsFlyerFramework;
+				INFOPLIST_FILE = "Target Support Files/AppsFlyerFramework/ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppsFlyerLib_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D7EB5808742F795357A48F8FB201650A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B5C61E2967BB6E8F2C7211788EA1A8 /* FBSDKCoreKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7687EC6F5DEA9515978F9DDEDA2453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D429A5026E092E0E8967A5BA73467E03 /* Pods-YandexTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YandexTest/Pods-YandexTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YandexTest/Pods-YandexTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC4D48C7EE884A87C34B90F9D93E95E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07168B017E39F58599F0CBA33E573AB6 /* FBSDKCoreKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267322C0D1A0F3D9C7166F81F1197604 /* Build configuration list for PBXNativeTarget "AppsFlyerFramework-AppsFlyerLib_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F8DC1D96B2D5476752F2B3BF0F31CC /* Debug */,
+				95936B92AA48B506A02C15BB92716C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD3872129327BE5DC3B3C86B3818127 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit_Basics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D20BA5D7F830DFD115A3AB18F22E90F /* Debug */,
+				AB7C3B3A84557D1A706B25DE7D84A432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442545805DAF10650DBA7C00DEAAD47B /* Build configuration list for PBXAggregateTarget "FBAEMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92194816CD555817018B3AE6BD0219D /* Debug */,
+				7F61D7A866D5005E987D463223322769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B9A5BD1FADAE479D403809E582EC07 /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6E2A2C1D500617DAAC7110C82BDEE /* Debug */,
+				4A23F1203421E4CF6B79B43E8332B863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8273572C8277E470B31D64D21C4AE568 /* Build configuration list for PBXNativeTarget "YandexLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE4D907E8E56EA010E6C47CF585A2DD /* Debug */,
+				8C74988293781C8D0D13C8287731679D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF5623C198EFFB1861F478426D189E4 /* Build configuration list for PBXNativeTarget "MNWSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EA9241D839C99A669D85975035CDB0 /* Debug */,
+				467C76D5DBA31A5FBD392891A06B63C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C320C79E1F381838923FC2BF4FAB74A1 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4D48C7EE884A87C34B90F9D93E95E4 /* Debug */,
+				D7EB5808742F795357A48F8FB201650A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D679D9CD636698D29EFA227D8A227137 /* Build configuration list for PBXNativeTarget "Pods-YandexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C422B908463E9B0A76EE591B6F24618B /* Debug */,
+				E7687EC6F5DEA9515978F9DDEDA2453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7320CAB1FEB84DAC5DE11C9FCDBE38 /* Build configuration list for PBXAggregateTarget "FBSDKLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C4CF7182A2C58278898886ABECF4A3 /* Debug */,
+				0B1779AF40872354D2417183905D69AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
