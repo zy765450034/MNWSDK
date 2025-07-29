@@ -28,8 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zy765450034/MNWSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-  s.vendored_frameworks = 'MNWSDK/Assets/MNWSDK.framework'
+  s.ios.deployment_target = '13.0'
+  s.static_framework = true
+  s.vendored_frameworks = 'MNWSDK/Assets/MNWSDK.xcframework'
   
   
   # s.resource_bundles = {
@@ -42,10 +43,10 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'MNWSDK/Classes/**/*'
 #  s.public_header_files = 'Pod/Classes/**/*.h'
 #  s.pod_target_xcconfig = {
-#      'ARCHS[sdk=iphoneos*]' => 'arm64',
-#      'ARCHS[sdk=iphonesimulator*]' => '', # 模拟器不包含任何架构
-#      'VALID_ARCHS' => 'arm64',
-#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' # 排除模拟器所有架构
+#      'ARCHS[sdk=iphoneos*]' => 'arm64 x86_64',
+#      'ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64', # 模拟器不包含任何架构
+#      'VALID_ARCHS' => 'arm64 x86_64',
+#      
 #    }
 #    
 #    # 确保主项目也应用这些设置
@@ -54,4 +55,10 @@ TODO: Add long description of the pod here.
 #      'ARCHS[sdk=iphonesimulator*]' => '',
 #      'VALID_ARCHS' => 'arm64'
 #    }
+#s.pod_target_xcconfig = {
+#   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' # 如果不想支持模拟器 arm64
+# }
+#s.pod_target_xcconfig = {
+#  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' # 完全排除模拟器
+#}
 end

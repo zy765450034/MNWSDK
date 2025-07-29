@@ -16,7 +16,14 @@
     "tag": "1.2.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "vendored_frameworks": "MNWSDK/Assets/MNWSDK.framework"
+  "static_framework": true,
+  "source_files": "MNWSDK/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "pod_target_xcconfig": {
+    "ARCHS[sdk=iphoneos*]": "arm64 x86_64",
+    "ARCHS[sdk=iphonesimulator*]": "arm64 x86_64",
+    "VALID_ARCHS": "arm64 x86_64"
+  }
 }

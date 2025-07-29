@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4CA97D7839E35F6D7D1A337D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,24 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4CA97D7839E35F6D7D1A337D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MNWSDK_Example/Pods-MNWSDK_Example-frameworks.sh",
-				"${PODS_ROOT}/../../MNWSDK/Assets/MNWSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MNWSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNWSDK_Example/Pods-MNWSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4E555AE8CE651FF39064DF81 /* [CP] Check Pods Manifest.lock */ = {
@@ -522,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MNWSDK/MNWSDK-Prefix.pch";
 				INFOPLIST_FILE = "MNWSDK/MNWSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MNWSDK/MNWSDK-Prefix.pch";
 				INFOPLIST_FILE = "MNWSDK/MNWSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

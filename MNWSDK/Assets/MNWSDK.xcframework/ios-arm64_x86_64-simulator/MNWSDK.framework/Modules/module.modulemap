@@ -1,0 +1,6 @@
+framework module MNWSDK {
+  umbrella header "MNWSDK.h"
+  export *
+
+  module * { export * }
+}
