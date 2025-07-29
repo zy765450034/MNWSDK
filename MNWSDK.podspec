@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MNWSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.2.1'
   s.summary          = 'A short description of MNWSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,14 +29,29 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'MNWSDK/Classes/**/*'
+  s.vendored_frameworks = 'MNWSDK/Assets/MNWSDK.framework'
+  
   
   # s.resource_bundles = {
   #   'MNWSDK' => ['MNWSDK/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+   
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+#  s.source_files = 'MNWSDK/Classes/**/*'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.pod_target_xcconfig = {
+#      'ARCHS[sdk=iphoneos*]' => 'arm64',
+#      'ARCHS[sdk=iphonesimulator*]' => '', # 模拟器不包含任何架构
+#      'VALID_ARCHS' => 'arm64',
+#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' # 排除模拟器所有架构
+#    }
+#    
+#    # 确保主项目也应用这些设置
+#    s.user_target_xcconfig = {
+#      'ARCHS[sdk=iphoneos*]' => 'arm64',
+#      'ARCHS[sdk=iphonesimulator*]' => '',
+#      'VALID_ARCHS' => 'arm64'
+#    }
 end
