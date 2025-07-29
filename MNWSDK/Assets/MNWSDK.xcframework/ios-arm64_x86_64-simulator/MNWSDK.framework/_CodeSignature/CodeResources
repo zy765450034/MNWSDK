@@ -4,33 +4,176 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/MNWBindAccoutParam.h</key>
+		<data>
+		Xbiofp9tDGwQHSDCzngamqCiAII=
+		</data>
+		<key>Headers/MNWBindingVerCodeParam.h</key>
+		<data>
+		qtRtjrE2rjIz1cNErTCNe893Dtg=
+		</data>
+		<key>Headers/MNWLoginParam.h</key>
+		<data>
+		LLujUOBo+LAKQZdpQJTE/gK00h8=
+		</data>
+		<key>Headers/MNWSDK-umbrella.h</key>
+		<data>
+		/NENiUHZGiBEaJuDFyHALbwGGHw=
+		</data>
 		<key>Headers/MNWSDK.h</key>
 		<data>
-		IL2qr2vyKZ90km1oK/EygvvnIBw=
+		2GkM/lGbO0PUMvpb4Mr7YEhsaFg=
+		</data>
+		<key>Headers/MNWSDKRegister.h</key>
+		<data>
+		YqBMe2tiR2dVGmbcnRXnTiARoJo=
+		</data>
+		<key>Headers/MNWSDKTypeDefine.h</key>
+		<data>
+		c8jKxcxyEH9AiierDKXK+fNrhsM=
+		</data>
+		<key>Headers/MNWToken.h</key>
+		<data>
+		O88GFHgJ6z6xeR7gBApN3gS8Zu4=
+		</data>
+		<key>Headers/MNWUser.h</key>
+		<data>
+		xRTd83pf/B+pyhvHH6rabmIFDwE=
+		</data>
+		<key>Headers/MNWVerCodeParam.h</key>
+		<data>
+		SYzBVymOa2IW44HJitzQuz5ncqI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wiZHHni9RUpa8ngOsEZ3sCULSfw=
+		ZQRwzjUmFIOmarYBinDDkhFL8/Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		lAtmMfnks5avIrsNV510xrbFlE8=
+		8UgD3GDiYvOV8ypZKBBp1chQC34=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MNWSDK.h</key>
+		<key>Headers/MNWBindAccoutParam.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Xbiofp9tDGwQHSDCzngamqCiAII=
+			</data>
 			<key>hash2</key>
 			<data>
-			c+Nv0RKOb5b3ciuXVyTYsKGoXh94rpq9fjsoFaIqb2Y=
+			cDvwYRl+76xa6svHutRX3dEDGlOCwejDtnYIYHbt1ss=
+			</data>
+		</dict>
+		<key>Headers/MNWBindingVerCodeParam.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qtRtjrE2rjIz1cNErTCNe893Dtg=
+			</data>
+			<key>hash2</key>
+			<data>
+			OMZEO8Ufvs5RC1QCecqhAJ/expyv7SLK950rPkHzSWI=
+			</data>
+		</dict>
+		<key>Headers/MNWLoginParam.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LLujUOBo+LAKQZdpQJTE/gK00h8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kklKEkexeYrMXavXpWLvWkHZP0/kB1qjnhAmirBNagI=
+			</data>
+		</dict>
+		<key>Headers/MNWSDK-umbrella.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/NENiUHZGiBEaJuDFyHALbwGGHw=
+			</data>
+			<key>hash2</key>
+			<data>
+			KJ8U3/WzVLGL+1DhKqKUZ8lQg9BIvzhHj62pAKPZ2bM=
+			</data>
+		</dict>
+		<key>Headers/MNWSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2GkM/lGbO0PUMvpb4Mr7YEhsaFg=
+			</data>
+			<key>hash2</key>
+			<data>
+			7CANeRyNr/w8ydHoRF2epysVEcpxVP8O5fMSjW/Qwj4=
+			</data>
+		</dict>
+		<key>Headers/MNWSDKRegister.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YqBMe2tiR2dVGmbcnRXnTiARoJo=
+			</data>
+			<key>hash2</key>
+			<data>
+			9JhkywLzaSfjf0xgHtcv4RQm4D5XOj/NjxnaWkrEZ/U=
+			</data>
+		</dict>
+		<key>Headers/MNWSDKTypeDefine.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c8jKxcxyEH9AiierDKXK+fNrhsM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VEOTHAGcA/hOZX3DN0Yi+u0fzMyeVup/1/2OFnk2dx0=
+			</data>
+		</dict>
+		<key>Headers/MNWToken.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O88GFHgJ6z6xeR7gBApN3gS8Zu4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8mA6lEM1BsjybUCvXj9lUyIuVxI6ImZX9F9AdLMShmI=
+			</data>
+		</dict>
+		<key>Headers/MNWUser.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xRTd83pf/B+pyhvHH6rabmIFDwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			VrMAkpLA/E6JVZ71XeaUXnq1GBhfD1muf7W/BhXOaMQ=
+			</data>
+		</dict>
+		<key>Headers/MNWVerCodeParam.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SYzBVymOa2IW44HJitzQuz5ncqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			i+3EjGwaQeGIlbBNLi6lZxt/R2fwv9g+KdvQlXJSjPI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8UgD3GDiYvOV8ypZKBBp1chQC34=
+			</data>
 			<key>hash2</key>
 			<data>
-			9f9XeQN6lcbONyKOSq9VJGrMPsXmlRMkOEvxXapzohU=
+			Dcu5kJ5j4RlNGDxWAshYYjuAISk+g0WNNSKZ07a9Bb0=
 			</data>
 		</dict>
 	</dict>

@@ -1,6 +1,6 @@
 {
   "name": "MNWSDK",
-  "version": "1.3.1",
+  "version": "1.4.1",
   "summary": "A short description of MNWSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zy765450034/MNWSDK",
@@ -13,11 +13,16 @@
   },
   "source": {
     "git": "https://github.com/zy765450034/MNWSDK.git",
-    "tag": "1.3.1"
+    "tag": "1.4.1"
   },
   "platforms": {
     "ios": "13.0"
   },
   "static_framework": true,
-  "vendored_frameworks": "MNWSDK/Assets/MNWSDK.xcframework"
+  "vendored_frameworks": "MNWSDK/Assets/MNWSDK.xcframework",
+  "resource_bundles": {
+    "MNWSDKResources": [
+      "MNWSDK/Assets/MNWSDK.bundle"
+    ]
+  }
 }
