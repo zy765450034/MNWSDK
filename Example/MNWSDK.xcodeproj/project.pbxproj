@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0980D7A7733FF94AE520E2F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,24 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0980D7A7733FF94AE520E2F7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MNWSDK_Example/Pods-MNWSDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MNWSDK/MNWSDKResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MNWSDKResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNWSDK_Example/Pods-MNWSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3F0B86F57D057D0A914C063F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

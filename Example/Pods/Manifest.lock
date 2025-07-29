@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Kiwi (3.0.0)
-  - MNWSDK (1.4.1)
+  - MNWSDK (1.4.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
-  MNWSDK: 3eeea7f78fda255f77f0d130c54eca84307d6a2a
+  MNWSDK: 621fa5a0be3835c4489dc8206600d05c7246b743
 
 PODFILE CHECKSUM: 88449f9745f3c560e2d93c015114cce4ee20601f
 
