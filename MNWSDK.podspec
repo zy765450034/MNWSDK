@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MNWSDK'
-  s.version          = '1.4.7'
+  s.version          = '1.4.8'
   s.summary          = 'A short description of MNWSDK.'
 
   s.description      = <<-DESC
@@ -35,8 +35,12 @@ TODO: Add long description of the pod here.
   s.default_subspec = 'Core'
   
   s.subspec 'IAP' do |iap|
-      iap.vendored_frameworks = 'MNWSDK/IAPComm.xcframework' # 假设你也有 xcframework
+      iap.vendored_frameworks = 'MNWSDK/IAPComm.xcframework'
       iap.dependency 'MNWSDK/Core'
   end
   
+  s.subspec 'AppleSignIn' do |appleSignIn|
+    appleSignIn.vendored_frameworks = 'MNWSDK/AppleComm.xcframework'
+    appleSignIn.dependency 'MNWSDK/Core'
+  end
 end
