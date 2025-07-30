@@ -21,10 +21,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zy765450034/MNWSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
-  s.static_framework = true
-  s.vendored_frameworks = 'MNWSDK/MNWSDK.xcframework'
-  s.resource = 'MNWSDK/MNWSDK.bundle'
-  s.preserve_paths = 'MNWSDK/MNWSDK.bundle'
+#  s.static_framework = true
+#  s.vendored_frameworks = 'MNWSDK/MNWSDK.xcframework'
+#  s.resource = 'MNWSDK/MNWSDK.bundle'
+#  s.preserve_paths = 'MNWSDK/MNWSDK.bundle'
   
   s.subspec 'Core' do |core|
     core.vendored_frameworks = 'MNWSDK/MNWSDK.xcframework'
