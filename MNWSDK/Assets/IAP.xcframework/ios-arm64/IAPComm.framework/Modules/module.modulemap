@@ -1,0 +1,6 @@
+framework module IAPComm {
+  umbrella header "IAPComm-umbrella.h"
+
+  export *
+  module * { export * }
+}

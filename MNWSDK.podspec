@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MNWSDK'
-  s.version          = '1.4.5'
+  s.version          = '1.4.6'
   s.summary          = 'A short description of MNWSDK.'
 
   s.description      = <<-DESC
@@ -33,4 +33,10 @@ TODO: Add long description of the pod here.
     
   end
   s.default_subspec = 'Core'
+  
+  s.subspec 'IAP' do |iap|
+      iap.vendored_frameworks = 'MNWSDK/Assets/IAPComm.xcframework' # 假设你也有 xcframework
+      iap.dependency 'MNWSDK/Core'
+  end
+  
 end
