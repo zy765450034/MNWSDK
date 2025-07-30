@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MNWSDK'
-  s.version          = '1.4.6'
+  s.version          = '1.4.7'
   s.summary          = 'A short description of MNWSDK.'
 
   s.description      = <<-DESC
@@ -22,20 +22,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
   s.static_framework = true
-  s.vendored_frameworks = 'MNWSDK/Assets/MNWSDK.xcframework'
-  s.resource = 'MNWSDK/Assets/MNWSDK.bundle'
-  s.preserve_paths = 'MNWSDK/Assets/MNWSDK.bundle'
+  s.vendored_frameworks = 'MNWSDK/MNWSDK.xcframework'
+  s.resource = 'MNWSDK/MNWSDK.bundle'
+  s.preserve_paths = 'MNWSDK/MNWSDK.bundle'
   
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = 'MNWSDK/Assets/MNWSDK.xcframework'
-    core.resource = 'MNWSDK/Assets/MNWSDK.bundle'
-    core.preserve_paths = 'MNWSDK/Assets/MNWSDK.bundle'
+    core.vendored_frameworks = 'MNWSDK/MNWSDK.xcframework'
+    core.resource = 'MNWSDK/MNWSDK.bundle'
+    core.preserve_paths = 'MNWSDK/MNWSDK.bundle'
     
   end
   s.default_subspec = 'Core'
   
   s.subspec 'IAP' do |iap|
-      iap.vendored_frameworks = 'MNWSDK/Assets/IAPComm.xcframework' # 假设你也有 xcframework
+      iap.vendored_frameworks = 'MNWSDK/IAPComm.xcframework' # 假设你也有 xcframework
       iap.dependency 'MNWSDK/Core'
   end
   
