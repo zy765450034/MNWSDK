@@ -1,9 +1,21 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'MNWSDK_Example' do
   pod 'MNWSDK', :path => '../'
+  pod 'MNWSDK/IAP', :path => '../'
+  pod 'MNWSDK/AppleSignIn', :path => '../'
+  pod 'MNWSDK/JVerification', :path => '../'
+  pod 'MNWSDK/QQSignIn', :path => '../'
+  pod 'MNWSDK/WechatSignIn', :path => '../'
+  pod 'MNWSDK/GoogleSignIn', :path => '../'
+  pod 'MNWSDK/FacebookSignIn', :path => '../'
+  pod 'MNWSDK/VKIDSignIn', :path => '../'
+  pod 'MNWSDK/YandexSignIn', :path => '../'
+  pod 'MNWSDK/FIRPush', :path => '../'
+#  pod 'MNWSDK/YandexSignIn', :path => '../'
+  
 
   target 'MNWSDK_Tests' do
     inherit! :search_paths

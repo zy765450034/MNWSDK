@@ -1,0 +1,11 @@
+framework module YandexComm {
+  umbrella header "YandexComm.h"
+
+  export *
+  module * { export * }
+}
+
+module YandexComm.Swift {
+  header "YandexComm-Swift.h"
+  requires objc
+}

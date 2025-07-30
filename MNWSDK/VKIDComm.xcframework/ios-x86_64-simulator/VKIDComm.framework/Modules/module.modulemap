@@ -1,0 +1,6 @@
+framework module VKIDComm {
+  umbrella header "VKIDComm-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module FIRPushComm {
+  umbrella header "FIRPushComm-umbrella.h"
+
+  export *
+  module * { export * }
+}

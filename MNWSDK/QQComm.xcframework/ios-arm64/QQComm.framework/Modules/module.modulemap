@@ -1,0 +1,6 @@
+framework module QQComm {
+  umbrella header "QQComm-umbrella.h"
+
+  export *
+  module * { export * }
+}
